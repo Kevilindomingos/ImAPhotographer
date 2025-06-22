@@ -1,20 +1,23 @@
 .fundo{
-  padding-top: -10px !important;
-  height: 100vh;
+  height: 151vh;
   width: auto;
-  background-color: black;
+  background-color: rgb(147, 62, 62);
+  padding: 70px;
 }
 
 .s1{
-  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  height: 140vh;
   width: auto;
-  margin: 70px;
-  background-color: rgb(109, 128, 163);
+  background-color: rgb(64, 80, 106);
   border-radius: 10px;
 }
 
 .blocoDireito{
-  height: 146vh;
-  border: 10px solid black;
-  width: 35vh;
+  display: flex;
+  height: 86vh;
+  border: 2px solid black;
+  width: 40vh;
+  gap: 2vh;
 }

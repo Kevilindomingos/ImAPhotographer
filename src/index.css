@@ -13,19 +13,25 @@
     padding-top: .1rem;
     padding-bottom: .1rem;
     background: linear-gradient(360deg,rgba(18, 41, 66, 1) 0%, rgba(131, 155, 242, 1) 100%);
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 
   .navbar-light .navbar-toggler{
-    border: none;
+      border: none;
   }
-.navbar-light, .navbar-brand, .nav-link {
-    color: rgba(255, 255, 255, 0.9) !important;
-}
+   .navbar-brand, .nav-link {
+      color: rgba(255, 255, 255, 0.9) !important;
+      background-color: rgb(128, 92, 92);
+      justify-content: space-between;
+      border-radius: 20px;
+      padding: 5px;
+      margin-left: 10px;
+  }
 
-.navbar-expand-lg .navbar-nav .dropdown-menu{
-  background: linear-gradient(360deg,rgba(18, 41, 66, 1) 0%, rgba(131, 155, 242, 1) 100%);
-}
-.dropdown-item{
-  color: white;
-}
+  .navbar-expand-lg .navbar-nav .dropdown-menu{
+      background: linear-gradient(360deg,rgba(18, 41, 66, 1) 0%, rgba(131, 155, 242, 1) 100%);
+  }
+  .dropdown-item{
+      color: white;
+  }
