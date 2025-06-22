@@ -1,0 +1,20 @@
+.fundo{
+  padding-top: -10px !important;
+  height: 100vh;
+  width: auto;
+  background-color: black;
+}
+
+.s1{
+  height: 150vh;
+  width: auto;
+  margin: 70px;
+  background-color: rgb(109, 128, 163);
+  border-radius: 10px;
+}
+
+.blocoDireito{
+  height: 146vh;
+  border: 10px solid black;
+  width: 35vh;
+}
