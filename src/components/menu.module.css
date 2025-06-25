@@ -1,0 +1,8 @@
+.tituloheader{
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    color: var(--marromEscuro);
+    font-family: "Major Mono Display", monospace;
+    font-weight: 600;
+    scroll-behavior: smooth;
+}
